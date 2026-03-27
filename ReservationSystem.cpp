@@ -84,11 +84,12 @@ bool ReservationSystem::cancel(std::string course_name){
 
 void ReservationSystem::printSchedule(){
 
-    std::string week = ["seg", "ter", "qua", "qui", "sex"];
+    std::string week[] = {"seg", "ter", "qua", "qui", "sex"};
     for(int i = 0; i < room_count; i++){
         std::cout <<"Room " << i << std::endl;
         for(int d = 0; d < 5; d++){
             for(int j = 0; j < reservation_count; j++){
+                // ver como comparar string
             if((reservations[i].room_index == i) && (reservations[i].weekday == d)){
                 // to na reserva j da sala i
                 // printar o dia da semana
