@@ -1,6 +1,6 @@
 #include "ReservationRequest.hpp"
 
-// construtor
+// Construtor
 ReservationRequest::ReservationRequest(std::string course_name, std::string weekday, int start_hour, int end_hour, int student_count){
     this->course_name = course_name;
     this->weekday = weekday;
@@ -9,13 +9,15 @@ ReservationRequest::ReservationRequest(std::string course_name, std::string week
     this->student_count = student_count;
 }
 
-// destrutor
+
+// Destrutor
 ReservationRequest::~ReservationRequest(){
     // por que preciso do destrutor se todos os atributos são simples?
+    // De fato o destrutor é só para limpar resquícios que sobraram de estruturas dinâmicas
 }
 
 
-// IMPLEMENTAÇÃO ReservationRequest
+// Métodos ReservationRequest
 
 int ReservationRequest::getStartHour(){
     return this->start_hour;

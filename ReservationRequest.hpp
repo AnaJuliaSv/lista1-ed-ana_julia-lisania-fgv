@@ -1,3 +1,6 @@
+#ifndef RESERVATION_SYSTEM_HPP
+#define RESERVATION_SYSTEM_HPP
+
 #include <iostream>
 #include <string>
 
@@ -22,3 +25,5 @@ public:
     std::string getWeekday();
     int getStudentCount();
 };
+
+#endif
