@@ -110,7 +110,7 @@ void ReservationSystem::printSchedule(){
         }
 
         // Printando a sala reservada do loop atual
-        std::string room = "Room " + std::to_string(j);
+        std::string room = "Room " + std::to_string(j+1);
         std::cout << " " << std::endl;
         std::cout << room << std::endl;
 
@@ -144,7 +144,7 @@ void ReservationSystem::printSchedule(){
                     if (reservations[i].room_index == j && reservations[i].weekday == week[d] && reservations[i].start_hour == time){       
                         int start = reservations[i].start_hour;
                         int ends = reservations[i].end_hour;
-                        std::string duration = std::to_string(start) + "h~" + std::to_string(ends) + "h :";
+                        std::string duration = std::to_string(start) + "h~" + std::to_string(ends) + "h: ";
         
                         std::string course = reservations[i].course_name;
                         std::string time_schedule = duration + course;
