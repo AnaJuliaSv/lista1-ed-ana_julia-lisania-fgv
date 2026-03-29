@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 
-// assinatura da classe auxiliar
+// Assinatura da classe auxiliar
 class ReservationRequest {
 
 private:

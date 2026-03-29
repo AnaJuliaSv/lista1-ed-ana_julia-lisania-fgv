@@ -12,8 +12,8 @@ ReservationRequest::ReservationRequest(std::string course_name, std::string week
 
 // Destrutor
 ReservationRequest::~ReservationRequest(){
-    // por que preciso do destrutor se todos os atributos são simples?
-    // De fato o destrutor é só para limpar resquícios que sobraram de estruturas dinâmicas
+    // Não há necessidade de um destrutor para Reservation Request,
+    // uma vez que não utilizamos estruturas dinâmicas aqui
 }
 
 

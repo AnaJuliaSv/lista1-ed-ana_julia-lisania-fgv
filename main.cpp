@@ -43,7 +43,7 @@ void doing_cancel(ReservationSystem& sys, ReservationRequest* requests, int tam)
 }
 
 
-
+// Main
 int main(void){
 
     int rooms = 5;
@@ -88,7 +88,6 @@ int main(void){
     // Cancelando a reserva de request_1 : Geometria Analitica, e request_3: Sociologia
     ReservationRequest cancel_request[2] = {request_1, request_3};
     doing_cancel(reservation_system, cancel_request, 2); 
-
 
     
     std::cout << "Grade Final: " << std::endl;

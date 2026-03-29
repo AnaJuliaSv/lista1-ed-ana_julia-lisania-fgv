@@ -39,7 +39,7 @@ bool ReservationSystem::reserve(ReservationRequest request){
         bool available = true;
         
 
-        // Percarre cada reserva que seja no mesmo dia do pedido
+        // Percorre cada reserva que seja no mesmo dia do pedido
         for(int j = 0; j < reservation_count; j++){
             if((reservations[j].room_index == i) && (reservations[j].weekday == request.getWeekday())){
 
