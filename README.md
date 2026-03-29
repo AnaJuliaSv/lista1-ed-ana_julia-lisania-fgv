@@ -9,12 +9,12 @@ Cada sala tem um número identificador e uma capacidade máxima de alunos, e nã
 
 Existem duas classes principais para o sistema:
 
-1. ReservationRequest : responsável por ditar como será uma requisição de reserva, e todos os parâmetros que ela deverá ter.
+1. **ReservationRequest :** responsável por ditar como será uma requisição de reserva, e todos os parâmetros que ela deverá ter.
 ```c++
 ReservationRequest request(nome_disciplina, dia_semana, hora_inicio, hora_termino, qtd_estudantes);
 ```
 
-2. ReservationSystem : onde as operações com requisição de reserva serão modeladas, tais como: reservar, cancelar e exibir o quadro de horários semanal de cada sala.  Um objeto dessa classe define quantas salas estão disponíveis para uso no prédio e qual é a capacidade de cada uma delas.
+2. **ReservationSystem :** onde as operações com requisição de reserva serão modeladas, tais como: reservar, cancelar e exibir o quadro de horários semanal de cada sala.  Um objeto dessa classe define quantas salas estão disponíveis para uso no prédio e qual é a capacidade de cada uma delas.
 ```c++
 ReservationSystem reservation_system(5, {60, 40, 40, 35, 50});
 ```
@@ -35,7 +35,7 @@ Após o comando, será criado nessa mesma pasta um arquivo executável.
 
 ## Instruções de Execução
 
-Agora sim, após compilar, para executar o arquivo você deve voltar à seu terminal e rodar o comando:
+Agora sim, após compilar, para executar o arquivo você deve voltar à seu terminal e rodar o comando segundo seu sistema operacional:
 
 - **Windows**
 ```bash
