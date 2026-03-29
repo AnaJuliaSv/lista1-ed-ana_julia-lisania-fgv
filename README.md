@@ -28,7 +28,7 @@ O repositório foi todo programado na linguagem C++, dessa forma, é necessário
 2. Certifique-se de ter o 'g++' instalado na sua máquina.
 3. Em seu terminal, dentro da pasta em que estão os seus arquivos, execute o comando:
 ```bash
-g++ main.cpp ReservationSystem.cpp ReservationRequest.cpp -o main_reserve
+g++ main.cpp ReservationSystem.cpp ReservationRequest.cpp -o reservation_system
 ```
 Após o comando, será criado nessa mesma pasta um arquivo executável.
 
