@@ -39,12 +39,12 @@ Agora sim, após compilar, para executar o arquivo você deve voltar à seu term
 
 - **Windows**
 ```bash
-.\main_reserve.exe
+.\reservation_system.exe
 ```
 
 - **Linux**
 ```bash
-./main_reserve
+./reservation_system
 ```
 
 
